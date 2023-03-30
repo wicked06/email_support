@@ -1,23 +1,13 @@
 # Human Resource Email Support System
-Human Resource Email Support is my Internship Project at GECO Philippine Incorporation. This project intended to help HR to send multiple files in multiple and single email. Also it uses CRUD functionality to add, update, edit and delete data. 
-It has features to archive all data and view history of the email status either send or fail. 
+Human Resource Email Support System is my Internship Project at GECO Philippine Incorporation. This project intended to help HR to send multiple files in multiple and single email. Also it uses CRUD functionality to add, update, edit and delete data. 
+It has features to archive all data and view history of the email status either send or fail.
+
+# Technologies Used
+* HTML5, CSS3, PHP, Javascript, MySQL, JQuery, AJAX
+* Bootstrap, Sweet Alert, Xampp, Composer tools, PHPMailer API's
 
 # Main Page
 ![hr1](https://user-images.githubusercontent.com/80078725/228458961-8d1b1f94-5da4-4fac-8f45-78ea90171a91.png)
-
-# Technologies Used
-* HTML5
-* CSS3 
-* PHP
-* Javascript
-* MySQL
-* JQuery
-* AJAX
-* Bootstrap
-* Sweet Alert
-* Xampp
-* Composer tools
-* PHPMailer API's
 
 
 # Getting Started 
@@ -100,12 +90,12 @@ Now, to run a PHP script:
 ![archivedata](https://user-images.githubusercontent.com/80078725/228494985-c611864f-d238-46e4-a14c-c8716186ea13.png)
 
 
-8.Also, you can archive all account, which will store it immediately to the archives page and allow you to retrieve it.
+8. Also, you can archive all account, which will store it immediately to the archives page and allow you to retrieve it.
 
 ![archiveall1](https://user-images.githubusercontent.com/80078725/228485479-9ccea2ee-66de-4f0c-8599-23db4f7fcc2f.png)
 ![archiveall2](https://user-images.githubusercontent.com/80078725/228485703-9f6136cb-8828-46f0-8a9f-392438d95ac9.png)
 
-9.Data from the system will also be exported as a csv file.
+9. Data from the system will also be exported as a csv file.
 
 ![export1](https://user-images.githubusercontent.com/80078725/228485884-e0b37934-2536-4e7c-9e15-1e88ed12ee1e.png)
 ![export2](https://user-images.githubusercontent.com/80078725/228486187-25d87f54-62b9-4427-9208-f8e74cc10846.png)
@@ -115,5 +105,35 @@ Now, to run a PHP script:
 ![archivepage1](https://user-images.githubusercontent.com/80078725/228705971-abe2cd72-2c3d-4fde-b2a4-e4454678ef42.png)
 ![archivepage2](https://user-images.githubusercontent.com/80078725/228706029-907e3d59-579d-44a1-9240-ddc3fbf1fe80.png)
 ![archivepage3](https://user-images.githubusercontent.com/80078725/228706521-8ce7e9d1-61a0-409a-9490-db451b09e42a.png)
+ 
+11. This is the email page where you can compose and send emails to both single and multiple recipients. You had to enter the sender's name, email address, subject, file attachments, recipient emails, and message on the right-side panel. You can see the name, email address, and a select option to choose the receiver of your email in the left side panel. Following that, you can click the send email button and reset the information by clicking the reset form button.
 
-11. 
+![emailpage1](https://user-images.githubusercontent.com/80078725/228713765-8bf7b254-cdd5-4243-b45d-f499874a27d0.png)
+![emailpage2](https://user-images.githubusercontent.com/80078725/228713817-55b08316-deb0-4bdc-ac8d-d9d56d2db539.png)
+![emailpage3](https://user-images.githubusercontent.com/80078725/228713857-0059c84e-c406-43c7-9b42-92c97821a67f.png)
+![emailpage4](https://user-images.githubusercontent.com/80078725/228713909-6ad6ba1b-fbc7-4177-a835-e0adb772a44b.png)
+
+12. The email will reach its recipient once it has been sent.
+
+![emailpage5](https://user-images.githubusercontent.com/80078725/228714239-be529ebd-68b4-477b-b9be-686353266375.png)
+![emailpage6](https://user-images.githubusercontent.com/80078725/228714277-6f004fe9-57bf-43d6-b6e6-1a5217d96756.png)
+
+13. The track email status page will show if the email was successfully sent or failed when the recipient receives it.
+
+![trackemail1](https://user-images.githubusercontent.com/80078725/228714620-24affe0e-3d98-411f-ba11-a1b2e5820c8e.png)
+
+14. You can view the Human Resource Email Support System guidelines in the about button.
+
+![guidelines](https://user-images.githubusercontent.com/80078725/228715029-85855bca-9abc-481a-bb98-aa2f81fc0701.png)
+
+15. For other features, such as pagination, you can select the minimum and maximum number of records to display for each entry. If you'd want to view in a different panel, you can tap the number below as well.
+
+![feature1](https://user-images.githubusercontent.com/80078725/228717333-73f69326-9751-4209-9f3a-b72198a0ed03.png)
+![feature2](https://user-images.githubusercontent.com/80078725/228717372-89ba822d-a82f-4e37-bbf6-0bed19d63ca8.png)
+![feature3](https://user-images.githubusercontent.com/80078725/228717418-c9c01ad4-8b3e-4700-a2f7-12cd233166d1.png)
+![feature4](https://user-images.githubusercontent.com/80078725/228717450-977e534a-d77d-4efb-90dc-a5ed8021447a.png)
+
+16. Other features include the ability to search by user name and email address in the search option.
+
+![search1](https://user-images.githubusercontent.com/80078725/228717790-a2e66ccb-f403-4700-b2db-f0809d1d2add.png)
+![search2](https://user-images.githubusercontent.com/80078725/228717827-77567afd-2189-44ad-88e0-1716a1b16dde.png)
